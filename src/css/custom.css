@@ -1,0 +1,34 @@
+:root {
+  --ifm-color-primary: #d7262d;
+  --ifm-color-primary-dark: #bb1f25;
+  --ifm-color-primary-darker: #a31a20;
+  --ifm-color-primary-darkest: #7f151a;
+  --ifm-color-primary-light: #e34045;
+  --ifm-color-primary-lighter: #ea5d61;
+  --ifm-color-primary-lightest: #f07d80;
+
+  --ifm-background-color: #f6f1e7;
+  --ifm-color-secondary: #f6f1e7;
+  --ifm-color-accent: #f8d9b0;
+  --ifm-color-note: #222e50;
+  --ifm-color-text: #1a1a1a; 
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+}
+
+
+* {
+  scrollbar-width:auto;
+  scrollbar-color: var(--ifm-color-primary) var(--ifm-background-color);
+}
+
+.custom-github-icon {
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 16 16' fill='currentColor' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M8 .198a8 8 0 00-2.53 15.59c.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.2 1.87.86 2.33.65.07-.52.28-.86.51-1.06-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82a7.65 7.65 0 012-.27c.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8 8 0 008.001.197z'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 24px 24px;
+  color: rgb(0, 0, 0);
+}
