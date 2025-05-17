@@ -2,13 +2,9 @@
 sidebar_position: 1
 ---
 
-# RF's e RNF's
+# RF e RNF
 
-You have just learned the **basics of Docusaurus** and made some changes to the **initial template**.
+RF é a sigla para **Requisitos Funcionais**, descreve o que o sistema deve fazer, definindo suas funções, comportamentos ou operações específicas.
 
-Docusaurus has **much more to offer**!
-
-Have **5 more minutes**? Take a look at **[versioning](../tutorial-extras/manage-docs-versions.md)** and **[i18n](../tutorial-extras/translate-your-site.md)**.
-
-Anything **unclear** or **buggy** in this tutorial? [Please report it!](https://github.com/facebook/docusaurus/discussions/4610)
+RNF é a sigla para **Requisitos Não Funcionais**, não está ligado as funções do sistema, e sim a sua qualidade, segurança e desempenho. Em suma, a como o sistema deve se comportar.
 
