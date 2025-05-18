@@ -1,36 +1,50 @@
+*Descrição Geral*
+Este repositório reúne dois projetos complementares voltados para aplicações de direção inteligente e processamento de dados veiculares:
+
+1. *Aceleradio.ai*
+   Assistente de direção inteligente que adapta interface, recomendações e trilha sonora ao seu estilo de condução (Calmo, Moderado ou Agressivo), alertas e playlists dinâmicas.
+
+2. *TeltonikaTcpParserServer*
+   Servidor TCP modular escrito em Zig, capaz de receber e interpretar dados de dispositivos Teltonika (FMC003), extraindo informações OBD2 dentre eles: Aceleração, rpm, localização, eventos de I/O e garantindo validação de integridade via CRC16.
+
 ---
-sidebar_position: 1
+
+## 🚀 Aceleradio.ai
+
+### Funcionalidades
+
+* *Interface Adaptativa*
+  Cores, temas e ícones mudam conforme o modo de condução.
+* *Player de Música Dinâmico*
+  Seleção de faixas inteligentes de acordo com velocidade e humor.
+* *Modos de Condução*
+
+  * Calmo
+  * Moderado
+  * Agressivo
+
 ---
 
-# README
+### Tecnologias
 
-## 📱Sobre o Projeto
-Aceleradio.ai é um assistente de direção inteligente que adapta sua interface e recomendações com base no seu estilo de condução. O app utiliza inteligência artificial para analisar seu comportamento ao volante e ajustar a experiência de acordo com três modos: Calmo, Moderado e Agressivo.
+* React Native
+* Expo
+* Google Pub/Sub
+* AWS
+* TypeScript
+* NestJS
+* Tamagui (UI)
+* ZIG
+* Socket.io
 
-🎯 Funcionalidades
-Interface Adaptativa: Cores e estilos mudam de acordo com seu modo de condução
-Assistente IA: Receba dicas e alertas personalizados sobre seu estilo de direção
-Player de Música: Recomendações musicais que se adaptam ao seu humor e estilo de condução
-Visual Dinâmico: Ícones e temas que refletem seu estado atual de condução
-🛠️ Tecnologias Utilizadas
-React Native
-Expo
-Tamagui (UI)
-TypeScript
-Context API talvez (?)
+---
 
-## Importante
-#1: O nome "Aceleradio" surgiu após um desenvolvedor derramar café no teclado enquanto tentava escrever "Acelerador Inteligente".
+## ✨ Contribuições
 
-#2: A cor do modo "Agressivo" foi escolhida depois que o frontend levou uma multa por excesso de velocidade.
+Contribuições são bem-vindas! Abra issues ou pull requests para sugerir novos recursos, correções ou melhorias de documentação.
 
-#3: O app tem um easter egg: se você alternar entre os modos de condução 10 vezes em menos de 5 segundos, o app começa a tocar "The Fast and The Furious" theme song.
+---
 
-#4: Uma versão inicial do app incluía um modo "Tartaruga", mas foi removido porque os testadores acabavam dormindo ao volante.
+## 📄 Licença
 
-#5: O assistente de IA foi treinado com dados de um taxista carioca, por isso às vezes as mensagens vêm com um "ô meu amigo" implícito.
-
-## 🐛 Problemas Conhecidos
-O app ainda não consegue distinguir se você está dirigindo rápido porque está atrasado ou porque gosta de adrenalina.
-Ocasionalmente, o assistente de IA pode sugerir "dar um cavalo de pau" quando detecta um humor muito agressivo (estamos trabalhando nisso).
-Se você dirigir de ré por mais de 5 minutos, o app pode entrar em um estado existencial questionando suas escolhas de vida.
+Este projeto está licenciado sob a *MIT License*. Veja o arquivo LICENSE para mais detalhes.
