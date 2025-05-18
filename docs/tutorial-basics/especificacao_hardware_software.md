@@ -1,8 +1,8 @@
 ---
-sidebar_position: 5
+sidebar_position: 6
 ---
 
 # Especificação do Hardware e Software
 
-Confira aqui as especificações do **hardware** e **software** utilizados no projeto.
+Segue abaixo as especificações do **hardware** e **software** utilizados no projeto.
 
